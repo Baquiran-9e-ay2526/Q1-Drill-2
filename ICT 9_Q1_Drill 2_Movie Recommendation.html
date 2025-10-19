@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Movie Recommendation Form</title>
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		body {
+			/*background-color: orangered;*/
+			background-image: url(https://cdn.pixabay.com/photo/2012/04/13/01/23/moon-31665_1280.png);
+			font-family: "work sans", sans-serif;";
+			color: darkred;
+		}
+
+	h1, hr{
+		text-align: center;
+	}
+
+	P{
+		text-align: center;
+		color: palevioletred;
+	}
+
+	form{
+		margin: 10%auto;
+		background-color: skyblue;
+		width: 60%;
+		padding: 20px;
+		border-radius: 15px;
+		box-shadow: box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+	}
+	
+	</style>
+
+
+
+	<hr>
+	<form>
+	<h1>Movie Recommendation Form</h1>
+
+	<fieldset>
+		<legend>Customer Information</legend>
+		<label for="Name">Name: </label>
+		<input type="Text" name="Name">
+
+		
+
+	<br>
+		<label for="Email">Email: </label>
+		<input type="Text" name="Email">
+	<br>
+		<label for="Recommended Movie Title">Recommended Movie Title: </label>
+		<input type="Text" name="Recommended Movie Title">
+	<br>
+		<label for="Why do you recommend it">Why do you recommend it? </label><br>
+		<textarea cols="30" rows="5" placeholder="I like it because.."></textarea>
+	
+
+			<legend>Genres (select all that apply):</legend>
+			<input type="checkbox" name="Action" value="Action">
+			<label for="crust">Action</label><br>
+
+			<input type="checkbox" name="Comedy" value="Comedy">
+			<label>Comedy</label><br>
+
+			<input type="checkbox" name="Drama" value="Drama">
+			<label>Drama</label><br>
+
+			<input type="checkbox" name="Fantasy" value="Fantasy">
+			<label>Fantasy</label><br>
+
+			<input type="checkbox" name="Sci-Fi" value="Sci-Fi">
+			<label>Sci-Fi</label><br>
+		
+
+			<legend>Rate the Movie</legend>
+			<input type="radio" name="1" value="1">
+			<label> 1 </label><br>
+
+			<input type="radio" name="2" value="2">
+			<label> 2</label><br>
+
+			<input type="radio" name="3" value="3">
+			<label> 3 </label><br>
+
+			<input type="radio" name="4" value="4">
+			<label> 4</label><br>
+
+			<input type="radio" name="5 (Best)" value="5 (Best)">
+			<label> 5 (Best)</label><br>
+
+	
+
+			<legend></legend>
+			<label>Where did you watch it?</label>
+
+			<select id="">
+				<option value= "Netflix">Netflix</option>
+				<option value= "Youtube">Youtube</option>
+				<option value= "TheatreHub">TheatreHub</option>
+				<option value= "Other Website..">Other Website..</option>
+			</select>
+
+			<section>
+				
+			</section>
+		</fieldset>
+
+
+
+	</fieldset>
+
+	<input type="submit" value="Submit Recommendation">
+	<input type="reset" Value="Redo Recommendation">
+
+	</form>
+
+</head>
+<body>
+
+</body>
+</html>
